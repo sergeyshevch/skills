@@ -832,7 +832,7 @@ def main():
     parser.add_argument(
         "--cache-dir",
         default=None,
-        help="Path to cache directory (default: <script_dir>/../cache)",
+        help="Path to cache directory (default: <script_dir>/cache)",
     )
     parser.add_argument(
         "--force-refresh",
@@ -864,7 +864,7 @@ def main():
         cache_dir = Path(args.cache_dir)
     else:
         script_dir = Path(__file__).resolve().parent
-        cache_dir = script_dir.parent / "cache"
+        cache_dir = script_dir / "cache"
 
     cache = DashboardCache(cache_dir)
 

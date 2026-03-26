@@ -76,10 +76,10 @@ Only targets using Prometheus-compatible datasources (`prometheus`, `victoriamet
 
 ### Caching Strategy
 
-Results are cached per-dashboard as individual files in `<skill_base_dir>/cache/`:
+Results are cached per-dashboard as individual files in `<skill_base_dir>/scripts/cache/`:
 
 ```
-cache/
+scripts/cache/
   meta.json                      — Grafana URL + last updated timestamp
   dashboards/
     <uid>.json                   — one file per dashboard
