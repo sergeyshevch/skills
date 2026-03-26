@@ -1,0 +1,22 @@
+{
+  "name": "grafana",
+  "description": "Grafana-related skills for Claude Code: extract metrics from dashboards, cross-reference with TSDB ingestion, and identify optimization opportunities.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sergey Shevchenko",
+    "url": "https://github.com/sergeyshevch"
+  },
+  "homepage": "https://github.com/sergeyshevch/skills",
+  "repository": "https://github.com/sergeyshevch/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "grafana",
+    "metrics",
+    "prometheus",
+    "victoriametrics",
+    "dashboards",
+    "observability",
+    "monitoring",
+    "tsdb"
+  ]
+}

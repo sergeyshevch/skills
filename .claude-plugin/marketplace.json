@@ -1,0 +1,14 @@
+{
+  "name": "sergeyshevch-tools",
+  "owner": {
+    "name": "Sergey Shevchenko"
+  },
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "grafana",
+      "source": "./plugins/grafana",
+      "description": "Extract and analyze metrics referenced in Grafana dashboards"
+    }
+  ]
+}
